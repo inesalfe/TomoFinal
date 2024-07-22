@@ -1,4 +1,4 @@
-all: seq seq_sparse omp_sparse omp_sparse_atomic
+all: seq seq_sparse omp_sparse omp_sparse_atomic tomo_stop
 
 seq:
 	make -f makefile.seq
